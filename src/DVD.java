@@ -7,6 +7,8 @@ public class DVD extends Movie {
 	public DVD(String title, int runtime, ArrayList<String> scenes) {
 		super( title, runtime, title, scenes);
 	}
+	
+	
 
 	@Override
 	public void play() {

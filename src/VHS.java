@@ -21,14 +21,19 @@ public class VHS extends Movie{
 	}
 
 
-	private void rewind() {
-		// TODO Auto-generated method stub
-		
+	public void rewind() {
+		currentTime = 0;
+		 
 	}
 
 
-	public double getCurrentTime() {
+	public int getCurrentTime() {
 		return currentTime;
+	}
+
+
+	public void setCurrentTime(int currentTime) {
+		this.currentTime = currentTime;
 	}
 
 

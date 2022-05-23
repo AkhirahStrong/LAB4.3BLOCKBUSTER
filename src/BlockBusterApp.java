@@ -12,7 +12,7 @@ public class BlockBusterApp {
 		
 		
 		//Movie scene arrays
-		ArrayList<String> fightSences = new ArrayList<>
+		ArrayList<String> FightClubSences = new ArrayList<>
 		(Arrays.asList("Edward is in his office", "Edward meets Tyler", 
 		"Edward moved in with Tyler", "Edward and Tyler starts fight club", 
 		"Edward is Tyler"));
@@ -38,7 +38,7 @@ public class BlockBusterApp {
 		
 		//Arrays for user choice
 		ArrayList<Movie> movies = new ArrayList<>();
-		movies.add(new DVD("Fight Club", 219, fightSences));
+		movies.add(new DVD("Fight Club", 219, FightClubSences));
 		movies.add(new DVD("Howel's Moving Castle", 159, castleScenes));
 		movies.add(new DVD("The Storm of the Centery", 417, stormSences));
 		movies.add(new VHS("The Golden Child", 134, goldenScenes));
